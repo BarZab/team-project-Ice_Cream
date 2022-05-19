@@ -11,56 +11,15 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/sass/main.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- W taki sposbu dodajemy fragmenty w główny HTML-plik strony. -->
     <!-- <include src="./partials/example.html"></include> -->
-  
-    <footer class="footer">
-      <div>
-      <!-- jako że w wytycznych jest żeby przenieść tytuł dałem h2h1 zamiast p -->
-      <h2>homemade ice cream made</h2>
-      <h1>with passion</h1>
-      </div>
-      <!-- kontener na sociale i kontakt -->
-      <div>
-        <!-- kontener na sociale -->
-        <div>
-          <ul class="social-list list">
-            <li >
-                <a href="#" class="social-list__link">
-                    <svg class="social-list__icon">
-                        <use href="icons.svg#icon-git"></use>
-                    </svg>
-                </a>
-            </li>
-            <li >
-                <a href="#" class="social-list__link">
-                    <svg class="social-list__icon">
-                        <use href="icons.svg#icon-telegram"></use>
-                    </svg>
-                </a>
-            </li>
-            <li >
-                <a href="#" class="social-list__link">
-                    <svg class="social-list__icon">
-                        <use href="icons.svg#icon-facebook"></use>
-                    </svg>
-                </a>
-            </li>
-        </ul>
-        <!-- kontener na kontakt -->
-        </div>
-        <div class="footer-contact">
-          <p class="footer-contact__caption">Feel free to contact<a class="footer-contact__link" href="tel:61(0)383766284">+ 61 (0) 383 766 284</a></p>
-        </div>
-      </div>
-      <!-- kontener na prawa autorskie -->
-      <div>
-        <p class="copyrights">@ 2019 - IceCream. All Rights Reserved</p>
-      </div>
-
-    </footer>
+    <include src="./partials/footer.html"></include>
+    
 
     <!-- Skrypt jest na samym dole kodu. On juz ma w sobie podłączony SAAS plik. -->
     <!-- <script src="./index.js"></script> -->
