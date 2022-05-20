@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/*
+ * Główny plik dla stylów.
+ * Wszystkie partials podłączamy tutaj.
+ */
+:root {
+  --font-main: 'DM Sans';
+  --font-header: 'Titan One';
+  --basic-color: #fff;
+  --text-main: #000;
+  --text-second: #907e82;
+  --brand-one: #d41443;
+  --brand-second: #ffa5ba;
+  --background-header: #ffb8ca;
+  --background-about: #fff5f6;
+  --background-clients: #fafafa;
+  --coffie-color: #f0d1a5;
+  --shakes-color: #c2e297;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+/*# sourceMappingURL=main.css.map */
