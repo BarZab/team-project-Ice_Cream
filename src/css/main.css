@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/*
+ * Główny plik dla stylów.
+ * Wszystkie partials podłączamy tutaj.
+ */
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+:root {
+  --font-main: "DM Sans";
+  --font-header: "Titan One";
+  --basic-color: #fff;
+  --text-main: #000;
+  --text-second: #907E82;
+  --brand-one: #D41443;
+  --brand-second: #FFA5BA;
+  --background-header: #FFB8CA;
+  --background-about: #FFF5F6;
+  --background-clients: #FAFAFA;
+  --coffie-color: #F0D1A5;
+  --shakes-color: #C2E297;
+}
+
+body {
+  font-family: var(--font-main);
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */
