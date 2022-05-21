@@ -1,0 +1,22 @@
+{
+    "version": 3,
+    "mappings": ";AAAA;;;GAGG;ACHH,AAAA,gBAAgB,CAAC;EACb,QAAQ,EAAE,mBAAmB;EAC7B,IAAI,EAAE,qBAAqB;EAC3B,IAAI,EAAE,wBAAwB;EAC9B,OAAO,EAAE,YAAY;EACrB,MAAM,EAAE,cAAc;EACtB,KAAK,EAAE,cAAc;EACrB,QAAQ,EAAE,MAAM;CACjB;;ACRH,AAAA,KAAK,CAAC;EACF,WAAW,CAAA,UAAC;EACZ,aAAa,CAAA,YAAC;EACd,aAAa,CAAA,KAAC;EACd,WAAW,CAAA,KAAC;EACZ,aAAa,CAAA,QAAC;EACd,WAAW,CAAA,QAAC;EACZ,cAAc,CAAA,QAAC;EACf,mBAAmB,CAAA,QAAC;EACpB,kBAAkB,CAAA,QAAC;EACnB,oBAAoB,CAAA,QAAC;EACrB,cAAc,CAAA,QAAC;EACf,cAAc,CAAA,QAAC;CAClB;;ACbD,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,gBAAgB;EAC7B,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACX;;AAED,AAAA,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE,CAAC;EACD,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACX;;AAED,AAAA,EAAE;AACF,EAAE,CAAC;EACD,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACX;;AAED,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACX;;AAED,AAAA,GAAG,CAAC;EACF,OAAO,EAAE,KAAK;CACf;;AAED,AAAA,KAAK,CAAC;EACJ,UAAU,EAAE,IAAI;CACjB;;AAED,AAAA,KAAK,CAAC;EACJ,eAAe,EAAE,IAAI;CACtB",
+    "sources": [
+        "main.scss",
+        "utils/_visually-hidden.scss",
+        "utils/_variables.scss",
+        "base/_common.scss",
+        "base/_container.scss",
+        "base/_section.scss",
+        "layout/_hero_header.scss",
+        "layout/_products.scss",
+        "layout/_about.scss",
+        "layout/_advantages.scss",
+        "layout/_gallery.scss",
+        "layout/_customer_reviews.scss",
+        "layout/_contacts.scss",
+        "layout/_footer.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
