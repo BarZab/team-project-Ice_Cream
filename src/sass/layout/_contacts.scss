@@ -1,6 +1,5 @@
 .contacts {
     background-color: var(--background-about);
-    margin-top: 86px;
 }
 
 .contacts__list {
@@ -25,7 +24,7 @@
     line-height: 186%;
 }
 
-.contacts__item__branch {
+.item__branch {
     margin-bottom: 25px;
     align-items: center;
     text-align: center;
@@ -44,13 +43,13 @@
     background: var(--shakes-color);
 }
 
-.contacts__item__town {
+.__item__town {
     margin-bottom: 10px;
     letter-spacing: 0.04em;
     color: var(--text-main);
 }
 
-.contacts__item__description {
+.item__description {
     line-height: 150%;
     /* or 18px */
     color: #907E82;
@@ -60,21 +59,21 @@
     border-bottom: 1px solid #E1E1E1;
 }
 
-.contacts__item__opening-days,
-.contacts__item__opening-weekends {
+.item__opening-days,
+.item__opening-weekends {
     color: var(--text-main);
 }
 
-.contacts__item__opening-days-hours,
-.contacts__item__opening-weekends-hours {
+.item__opening-days-hours,
+.opening-weekends-hours {
     color: var(--background-header);
 }
 
-.contacts__item__opening-days {
+.item__opening-days {
     padding-top: 25px;
 }
 
-.contacts__item__opening-weekends-hours {
+.item__opening-weekends-hours {
     padding-bottom: 25px;
     border-bottom: 1px solid #E1E1E1;
 }
@@ -86,7 +85,7 @@
     color: var(--text-second);
 }
 
-.contact__item__phone {
+.item__phone {
     padding-top: 50px;
 }
 
@@ -114,10 +113,6 @@
     &:not(:last-child) {
         margin-bottom: 10px;
         }
-}
-
-.modal-btn__franchise {
-    margin-bottom: 113px;
 }
 
 .modal-btn__locations .icon-btn {
