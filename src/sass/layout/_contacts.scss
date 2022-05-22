@@ -1,5 +1,6 @@
 .contacts {
     background-color: var(--background-about);
+
     margin-top: 86px;
     
     // tymczasowy border do pomoc
@@ -38,6 +39,7 @@
     text-align: center;
     display: flex;
     justify-content: center;
+    letter-spacing: 0.04em;
     color: var(--basic-color);
     border-radius: 4px;
 }
@@ -90,7 +92,6 @@
 .item__opening-days-hours {
     padding-bottom: 10px;
 }
-
 .item__opening-weekends-hours {
     padding-bottom: 25px;
     border-bottom: 1px solid #E1E1E1;
@@ -113,6 +114,12 @@
 
 .modal-btn__franchise{
     margin-bottom: 113px;
+
+.contacts__btn {
+    display: block;
+    margin-top: 54px;   
+    margin-left: 79px;
+    margin-right: auto;
 }
 
 .modal-btn__locations,
