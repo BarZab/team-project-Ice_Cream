@@ -10,7 +10,7 @@
 @import './base/container';
 @import './base/section';
 
-@import './layout/hero_header';
+@import './layout/header';
 @import './layout/products';
 @import './layout/about';
 @import './layout/advantages';
@@ -18,6 +18,8 @@
 @import './layout/customer_reviews';
 @import './layout/contacts';
 @import './layout/footer';
+
+@import './layout/modal';
 
 @import './components/social-links';
 
