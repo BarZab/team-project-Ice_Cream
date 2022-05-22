@@ -1111,6 +1111,7 @@ img {
 .social-list__icon {
   width: 20px;
   height: 20px;
+}
   
 @media screen and (min-width: 1200px) {
   .products__undertitle {
