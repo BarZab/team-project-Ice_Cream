@@ -1,0 +1,354 @@
+.contacts {
+    background-color: var(--background-about);
+    margin-top: 86px;
+    
+    // tymczasowy border do pomoc
+    // border: 5px solid;
+}
+
+.contacts-background {
+    display: none;
+}
+
+.contacts__list {
+    display: block;
+    width: 220px;
+    height: 427px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 43px 20px;
+    background: var(--basic-color);
+    box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+    border-radius: 24px;
+
+    &:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}
+
+.contacts__item { 
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 186%;
+}
+
+.item__branch {
+    margin-bottom: 25px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: var(--basic-color);
+    border-radius: 4px;
+}
+
+.cafe__branch {
+    width: 80px;
+    height: 16px;
+    letter-spacing: 0.04em;
+    background: var(--coffie-color);
+}
+
+.foodtruck__branch{
+    width: 130px;
+    height: 16px;
+    letter-spacing: 0.04em;
+    background: var(--shakes-color);
+}
+
+.item__town {
+    height: 22px;
+    margin-bottom: 10px;
+    letter-spacing: 0.04em;
+    color: var(--text-main);
+}
+
+.item__description {
+    width: 179px;
+    line-height: 150%;
+    color: #907E82;
+
+    /* linia zrobiona jako border bottom a nie before */
+    padding-bottom: 25px;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+.item__opening-days,
+.item__opening-weekends {
+    color: var(--text-main);
+}
+
+.item__opening-days-hours,
+.item__opening-weekends-hours {
+    color: var(--background-header);
+}
+
+.item__opening-days {
+    padding-top: 25px;
+}
+
+.item__opening-days-hours {
+    padding-bottom: 10px;
+}
+
+.item__opening-weekends-hours {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+.contacts__phone,
+.contacts__email {
+    line-height: 150%;
+    color: var(--text-second);
+    cursor: pointer;
+}
+
+.item__phone {
+    padding-top: 25px;
+}
+
+.modal-btn__locations {
+    margin-top: 54px;  
+}
+
+.modal-btn__franchise{
+    margin-bottom: 113px;
+}
+
+.modal-btn__locations,
+.modal-btn__franchise {
+    display: block;
+    width: 161px;
+    height: 44px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    color: var(--brand-one);
+    background: var(--basic-color);
+    border: none;
+    border-radius: 22px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+
+    &:not(:last-child) {
+        margin-bottom: 10px;
+        }
+        
+    &:hover,
+    &:focus {
+        color: var(--basic-color);
+        background: var(--brand-one);
+        fill: var(--basic-color);
+    }
+}
+
+.modal-btn__locations .icon-btn {
+    margin-left: 8px;
+}
+
+.icon-btn {
+    width: 4.28px;
+    height: 8px;
+    margin-left: 13.16px;
+
+    &:hover,
+    &:focus {
+        fill: var(--basic-color);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .contacts  {
+        margin-top: 119px;
+    }
+
+    .contacts__list {
+        display: inline-block;
+        height: 544px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        padding-top: 50px;
+        padding-left: 31px;
+    
+        &:not(:last-child) {
+            margin-bottom: 0px;
+            margin-right: 10px;
+        }
+    }
+    
+    .contacts__item { 
+        font-size: 14px;
+    }
+
+    .item__branch {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .cafe__branch {
+        width: 73px;
+        height: 28px;
+    }
+    
+    .foodtruck__branch{
+        width: 138px;
+        height: 28px;
+    }
+
+    .item__town {
+        height: 26px;
+        margin-bottom: 14px;
+    }
+
+    .item__description {
+        width: 145px;
+        line-height: 166%;
+
+        /* linia zrobiona jako border bottom a nie before */
+        padding-bottom: 30px;
+    }
+
+    .item__opening-days {
+        padding-top: 30px;
+    }
+    
+    .item__opening-days-hours {
+        padding-bottom: 16px;
+    }
+
+    .item__opening-weekends-hours {
+        padding-bottom: 32px;
+    }
+
+    .item__phone,
+    .item__email {
+        line-height: 183%;
+    }
+
+    .item__phone {
+        padding-top: 30px;
+    }
+
+    .contacts__btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .modal-btn__locations,
+    .modal-btn__franchise {
+        display: inline-block;
+    }
+    
+    .modal-btn__locations {
+        width: 198px;
+        margin-right: 15px;   
+    }
+
+    .modal-btn__franchise {
+        width: 180px;
+    }
+    
+    .icon-btn {
+        margin-left: 13.4px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .contacts  {
+        padding-top: 132px;
+        background-image: url("/images/contacts/contacts-bg.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        /*pozycja tła do sprawdzenia */
+        background-position-y: 230px;
+    }
+
+    .contacts__list {
+        display: inline-block;
+        width: 330px;
+        height: 572px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 51px 43px;
+    
+        &:not(:last-child) {
+            margin-bottom: 0px;
+            margin-right: 31px;
+        }
+    }
+
+    .contacts__item { 
+        font-size: 16px;
+    }
+    
+    .item__branch {
+        margin-bottom: 32px;
+    }
+
+    .item__town {
+        margin-bottom: 10px;
+    }
+
+    .item__description {
+        width: 243px;
+        line-height: 183%;
+        padding-bottom: 32px;
+    }
+
+    .item__opening-days {
+        padding-top: 32px;
+    }
+    
+    .item__opening-days-hours {
+        padding-bottom: 15px;
+    }
+
+    .item__opening-weekends-hours {
+        padding-bottom: 32px;
+    }
+
+    .item__phone {
+        padding-top: 32px;
+    }
+
+    .contacts__btn {
+        display: flex;
+        margin-top: 86px;   
+        margin-left: 0px;
+        justify-content: center;
+    }
+    
+    .modal-btn__locations,
+    .modal-btn__franchise {
+    
+        &:not(:last-child) {
+            margin-bottom: 165px;
+        }
+    }
+
+    .modal-btn__locations {
+        width: 198px;
+        margin-right: 15px;
+    }
+
+    .modal-btn__franchise {
+        width: 180px;
+    }
+    
+    .modal-btn__locations .icon-btn {
+        margin-left: 8px;
+    }
+    
+    .icon-btn {
+        width: 4.28px;
+        height: 8px;
+        margin-left: 13.4px;
+    }
+}
