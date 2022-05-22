@@ -13,6 +13,7 @@
   overflow: hidden;
 }
 
+
 :root {
   --font-main: 'DM Sans';
   --font-header: 'Titan One';
@@ -27,6 +28,7 @@
   --coffie-color: #F0D1A5;
   --shakes-color: #C2E297;
 }
+
 
 body {
   font-family: var(--font-main);
