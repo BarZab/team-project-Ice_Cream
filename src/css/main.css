@@ -157,6 +157,8 @@ img {
     letter-spacing: 0em;
     text-align: center;
     color: var(--brand-second);
+    padding-bottom: 15px;
+    padding-top: 120px;
   }
   .products__title {
     font-family: var(--font-header);
@@ -166,6 +168,7 @@ img {
     letter-spacing: 0.04em;
     text-align: center;
     color: var(--brand-one);
+    padding-bottom: 31px;
   }
   .products__list {
     list-style-type: none;
@@ -300,7 +303,8 @@ img {
     text-align: center;
     color: var(--brand-second);
     margin: 0 auto;
-    padding-bottom: 16px;
+    padding-bottom: 15px;
+    padding-top: 120px;
   }
   .products__title {
     font-family: var(--font-header);
@@ -326,21 +330,24 @@ img {
     margin-top: 144px;
     margin-bottom: 16px;
   }
+  .products__item:not(:last-child) {
+    margin-right: 7px;
+  }
   .ice-cream {
     background-color: var(--background-header);
-    height: 485px;
+    height: 520px;
     width: 220px;
     border-radius: 24px;
   }
   .ice-coffee {
     background-color: var(--coffie-color);
-    height: 485px;
+    height: 520px;
     width: 220px;
     border-radius: 24px;
   }
   .milkshakes {
     background-color: var(--shakes-color);
-    height: 485px;
+    height: 520px;
     width: 220px;
     border-radius: 24px;
   }
@@ -446,6 +453,7 @@ img {
     color: var(--brand-second);
     margin: 0 auto;
     padding-bottom: 15px;
+    padding-top: 120px;
   }
   .products__title {
     font-family: var(--font-header);
@@ -874,6 +882,39 @@ img {
 @media screen and (min-width: 1340px) {
   .about__description-background-desktop {
     background-size: cover;
+  }
+}
+
+.gallery {
+  background: linear-gradient(0deg, #fff 60%, var(--background-about) 40%);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gallery__picture {
+  margin: 0 auto;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 480px) {
+  .gallery {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .gallery {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .gallery {
+    max-width: 1200px;
+    margin: 0 auto;
   }
 }
 
