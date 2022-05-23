@@ -1,5 +1,6 @@
 .contacts {
     background-color: var(--background-about);
+    background: linear-gradient(0deg, #FFF5F6 96%, #fff 4%);
     margin-top: 86px;
 }
 
@@ -10,7 +11,6 @@
 .contacts__list {
     display: block;
     width: 220px;
-    height: 427px;
     margin-left: auto;
     margin-right: auto;
     padding: 43px 20px;
@@ -55,8 +55,7 @@
 }
 
 .item__town {
-    height: 22px;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
     letter-spacing: 0.04em;
     color: var(--text-main);
 }
@@ -85,6 +84,10 @@
     padding-top: 25px;
 }
 
+.item__opening-days-hours {
+    margin-bottom: 10px;
+}
+
 .item__opening-weekends-hours {
     padding-bottom: 25px;
     border-bottom: 1px solid #E1E1E1;
@@ -98,7 +101,7 @@
 }
 
 .item__phone {
-    padding-top: 50px;
+    padding-top: 25px;
 }
 
 .contacts__btn {
@@ -150,15 +153,15 @@
 
 @media screen and (min-width: 768px) {
     .contacts {
+        background: linear-gradient(0deg, #FFF5F6 90%, #fff 10%);
         margin-top: 119px;
     }
-    
-    .container {
+
+    .contacts .container {
         display: flex;
     }
 
     .contacts__list {
-        height: 544px;
         padding: 50px 31px;
     
         &:not(:last-child) {
@@ -187,8 +190,7 @@
     }
     
     .item__town {
-        height: 26px;
-        margin-bottom: 14px;
+        padding-bottom: 14px;
     }
     
     .item__description {
@@ -204,6 +206,10 @@
         padding-top: 30px;
     }
     
+    .item__opening-days-hours {
+        margin-bottom: 16px;
+    }
+
     .item__opening-weekends-hours {
         padding-bottom: 30px;
     }
@@ -214,7 +220,7 @@
     }
     
     .item__phone {
-        padding-top: 50px;
+        padding-top: 30px;
     }
     
     .contacts__btn {
@@ -242,13 +248,13 @@
         margin-top: 132px;
     }
     
-    .container {
+    .contacts .container {
         display: flex;
+        justify-content: space-around;
     }
 
     .contacts__list {
         width: 330px;
-        height: 572px;
         padding: 51px 43px;
     
         &:not(:last-child) {
@@ -265,8 +271,7 @@
     }
     
     .item__town {
-        height: 30px;
-        margin-bottom: 10px;
+        padding-bottom: 10px;
     }
     
     .item__description {
@@ -277,17 +282,20 @@
         padding-bottom: 30px;
     }
     
-   
     .item__opening-days {
         padding-top: 32px;
     }
     
+    .item__opening-days-hours {
+        margin-bottom: 15px;
+    }
+
     .item__opening-weekends-hours {
         padding-bottom: 32px;
     }
       
     .item__phone {
-        padding-top: 64px;
+        padding-top: 32px;
     }
     
     .contacts__btn {

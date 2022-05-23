@@ -877,8 +877,42 @@ img {
   }
 }
 
+.gallery {
+  background: linear-gradient(0deg, #fff 60%, var(--background-about) 40%);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gallery__picture {
+  margin: 0 auto;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 480px) {
+  .gallery {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .gallery {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .gallery {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
 .contacts {
   background-color: var(--background-about);
+  background: linear-gradient(0deg, #FFF5F6 96%, #fff 4%);
   margin-top: 86px;
 }
 
@@ -889,7 +923,6 @@ img {
 .contacts__list {
   display: block;
   width: 220px;
-  height: 427px;
   margin-left: auto;
   margin-right: auto;
   padding: 43px 20px;
@@ -934,8 +967,7 @@ img {
 }
 
 .item__town {
-  height: 22px;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
   letter-spacing: 0.04em;
   color: var(--text-main);
 }
@@ -963,6 +995,10 @@ img {
   padding-top: 25px;
 }
 
+.item__opening-days-hours {
+  margin-bottom: 10px;
+}
+
 .item__opening-weekends-hours {
   padding-bottom: 25px;
   border-bottom: 1px solid #E1E1E1;
@@ -976,7 +1012,7 @@ img {
 }
 
 .item__phone {
-  padding-top: 50px;
+  padding-top: 25px;
 }
 
 .contacts__btn {
@@ -1030,13 +1066,13 @@ img {
 
 @media screen and (min-width: 768px) {
   .contacts {
+    background: linear-gradient(0deg, #FFF5F6 90%, #fff 10%);
     margin-top: 119px;
   }
-  .container {
+  .contacts .container {
     display: flex;
   }
   .contacts__list {
-    height: 544px;
     padding: 50px 31px;
   }
   .contacts__list:not(:last-child) {
@@ -1059,8 +1095,7 @@ img {
     height: 28px;
   }
   .item__town {
-    height: 26px;
-    margin-bottom: 14px;
+    padding-bottom: 14px;
   }
   .item__description {
     width: 145px;
@@ -1071,6 +1106,9 @@ img {
   .item__opening-days {
     padding-top: 30px;
   }
+  .item__opening-days-hours {
+    margin-bottom: 16px;
+  }
   .item__opening-weekends-hours {
     padding-bottom: 30px;
   }
@@ -1079,7 +1117,7 @@ img {
     line-height: 183%;
   }
   .item__phone {
-    padding-top: 50px;
+    padding-top: 30px;
   }
   .contacts__btn {
     margin-top: 54px;
@@ -1103,12 +1141,12 @@ img {
   .contacts {
     margin-top: 132px;
   }
-  .container {
+  .contacts .container {
     display: flex;
+    justify-content: space-around;
   }
   .contacts__list {
     width: 330px;
-    height: 572px;
     padding: 51px 43px;
   }
   .contacts__list:not(:last-child) {
@@ -1121,8 +1159,7 @@ img {
     margin-bottom: 32px;
   }
   .item__town {
-    height: 30px;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
   }
   .item__description {
     width: 243px;
@@ -1133,11 +1170,14 @@ img {
   .item__opening-days {
     padding-top: 32px;
   }
+  .item__opening-days-hours {
+    margin-bottom: 15px;
+  }
   .item__opening-weekends-hours {
     padding-bottom: 32px;
   }
   .item__phone {
-    padding-top: 64px;
+    padding-top: 32px;
   }
   .contacts__btn {
     margin-top: 86px;
