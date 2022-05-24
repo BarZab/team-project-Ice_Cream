@@ -7,6 +7,9 @@
         letter-spacing: 0em;
         text-align: center;
         color: var(--brand-second);
+        padding-bottom: 15px;
+        padding-top: 120px;
+
     }
 
     .products__title {
@@ -17,6 +20,7 @@
         letter-spacing: 0.04em;
         text-align: center;
         color: var(--brand-one);
+        padding-bottom: 31px;
     }
 
     .products__list {
@@ -167,7 +171,8 @@
         text-align: center;
         color: var(--brand-second);
         margin: 0 auto;
-        padding-bottom: 16px;
+        padding-bottom: 15px;
+        padding-top: 120px;
     }
 
     .products__title {
@@ -196,26 +201,29 @@
     .products__item {
         margin-top: 144px;
         margin-bottom: 16px;
+    }
 
+    .products__item:not(:last-child) {
+        margin-right: 7px;
     }
 
     .ice-cream {
         background-color: var(--background-header);
-        height: 485px;
+        height: 520px;
         width: 220px;
         border-radius: 24px;
     }
 
     .ice-coffee {
         background-color: var(--coffie-color);
-        height: 485px;
+        height: 520px;
         width: 220px;
         border-radius: 24px;
     }
 
     .milkshakes {
         background-color: var(--shakes-color);
-        height: 485px;
+        height: 520px;
         width: 220px;
         border-radius: 24px;
     }
@@ -332,6 +340,7 @@
         color: var(--brand-second);
         margin: 0 auto;
         padding-bottom: 15px;
+        padding-top: 120px;
     }
 
     .products__title {
