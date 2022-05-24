@@ -121,9 +121,6 @@
     line-height: 21px;
     align-items: center;
     text-align: center;
-    fill: var(--brand-one);
-    color: var(--brand-one);
-    background: var(--basic-color);
     border: none;
     border-radius: 22px;
     transition-duration: 250ms;
@@ -133,17 +130,30 @@
     &:not(:last-child) {
         margin-bottom: 10px;
     }
+}
+
+.modal-btn__locations {
+    color: var(--basic-color);
+    background: var(--brand-one);
 
     &:hover,
     &:focus {
-        color: var(--basic-color);
-        background: var(--brand-one);
-        fill: #fff;
+        background: #C7133E;
     }
 }
 
 .modal-btn__locations .icon-btn {
     margin-left: 8px;
+}
+
+.modal-btn__franchise {
+    color: var(--brand-one);
+    background: var(--basic-color);
+
+    &:hover,
+    &:focus {
+        background: #ECEBEB;
+    }
 }
 
 .icon-btn {
