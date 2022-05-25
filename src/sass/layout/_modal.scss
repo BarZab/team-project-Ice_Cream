@@ -5,12 +5,13 @@
     left: 0;
     width:250px;
     height: 100%;
-    transform: translateX(-100px);
+    transition: transform 500ms;
 }
 
 .is-hidden {
-    opacity: 0;
-    visibility: none;
+    transform: translateX(-100%);
+    // opacity: 0;
+    // visibility: none;
     pointer-events: none;
 }
 
@@ -18,6 +19,7 @@
     position: absolute;
     top:23px;
     right:34px;
+    cursor: pointer;
 }
 
 .modal__btn {
@@ -31,7 +33,7 @@
     margin-top: 60px;
     width: 184px;
     height: 44px;
-
+    
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
@@ -51,6 +53,37 @@
 .modal__btn--arrow {
     margin-left: 20px;
 }
+
+.modal__item--link {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-decoration: none; //do połączenia ze stylami w _common
+    color: #FFFFFF;
+    margin: 13px 0px 11px 24px;
+ 
+    &:hover,
+    &:active {
+     color: #D41443;
+    }
+ }
+ 
+ .modal__item {
+   border-top:1px solid #E18298;
+ }
+ 
+ 
+ .modal__navigation {
+   margin-top: 19px;
+ 
+   &:last-child {
+     border-bottom:1px solid #E18298;
+   }
+ }
 
 @media screen and (min-width:768px) {
     .modal {
