@@ -54,6 +54,18 @@
     margin-left: 20px;
 }
 
+.modal__navigation {
+  margin-top: 19px;
+
+  &:last-child {
+    border-bottom:1px solid #E18298;
+  }
+}
+
+.modal__item {
+  border-top:1px solid #E18298;
+}
+
 .modal__item--link {
     font-family: 'DM Sans';
     font-style: normal;
@@ -71,23 +83,9 @@
      color: #D41443;
     }
  }
- 
- .modal__item {
-   border-top:1px solid #E18298;
- }
- 
- 
- .modal__navigation {
-   margin-top: 19px;
- 
-   &:last-child {
-     border-bottom:1px solid #E18298;
-   }
- }
 
 @media screen and (min-width:768px) {
     .modal {
         width:254px;
     }
 }
-//na dobrą sprawę można połączyć ten plik z _header.scss
